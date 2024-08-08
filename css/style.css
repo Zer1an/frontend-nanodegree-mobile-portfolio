@@ -44,8 +44,6 @@ li p { font-size: 0.9em; font-style: italic; } */
     margin-bottom: 2em;       /* Space between items */
 }
 li img { 
-    width: 100px; 
-    height: auto; 
     margin-right: 1em;        /* Space between image and text */
 }
 li p { 
