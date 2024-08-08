@@ -31,10 +31,29 @@ header p span { font-size: 0.8em; font-weight: normal;}
   border-top: 1px solid #ccc;
 }
 
-.content { padding: 1em 1em; }
+/* .content { padding: 1em 1em; }
 .content li { list-style-type: none; font-size: 1.1em;}
 li img { float:left; padding-right: 1em; }
-li p { font-size: 0.9em; font-style: italic; }
+li p { font-size: 0.9em; font-style: italic; } */
+
+.content { padding: 1em 1em; }
+.content ul { list-style: none; padding: 0; margin: 0; }
+.content li {
+    display: flex;
+    align-items: flex-start;  /* Align items to the top */
+    margin-bottom: 2em;       /* Space between items */
+}
+li img { 
+    width: 100px; 
+    height: auto; 
+    margin-right: 1em;        /* Space between image and text */
+}
+li p { 
+    font-size: 0.9em; 
+    font-style: italic; 
+    margin: 0; 
+}
+
 
 footer {
   padding: 0 0.5em;
