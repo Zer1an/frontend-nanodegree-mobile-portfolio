@@ -86,11 +86,11 @@ footer span { float: right; font-style: italic; }
 
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Open Sans';
   src: url('//fonts.googleapis.com/css?family=Open+Sans:400,700');
   font-display: swap;
-}
+} */
 
 
 @media print {
