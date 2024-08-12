@@ -57,7 +57,8 @@ li p { font-size: 0.9em; font-style: italic; } */
 
 li img { 
     object-fit: cover; 
-    margin-right: 1em;        /* Space between image and text */
+    margin-right: 1em;        
+    /* Space between image and text */
 }
 li p { 
     font-size: 0.9em; 
