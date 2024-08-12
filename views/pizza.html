@@ -1,9 +1,13 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=" Pizza ">
+  <meta name="author" content=" Pizza ">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <title>Cameron Pittman: Pizza Recipes</title>
 </head>
 
 <body>
@@ -37,7 +41,7 @@
     </div>
     <div id="callToAction" class="row">
       <div class="col-md-4">
-        <img style="width: 400px;  height: 300px;" src="images/pizzeria_mid.webp" class="img-responsive">
+        <img style="width: 400px;  height: 300px;" src="images/pizzeria_mid.webp" class="img-responsive" alt="image of a pizza">
       </div>
       <div class="col-md-8">
         <div class="row">
@@ -99,13 +103,13 @@
           </div>
           <div id="pizzaSize" class="col-md-6">Medium</div>
           <div class="col-md-12">
-            <input id="sizeSlider" type="range" min="1" max="3" value="2" step="1" onchange="resizePizzas(this.value)"></input>
+            <label for="firstname">Pizza Size Slider</label> <input id="sizeSlider" type="range" min="1" max="3" value="2" step="1" onchange="resizePizzas(this.value)"></input>
           </div>
         </div>
         <div id="randomPizzas" class="row">
           <div id="pizza0" class="randomPizzaContainer" style="width:33.33%; height: 325px;">
             <div style="width:35%">
-              <img src="images/pizza.png" class="img-responsive">
+              <img src="images/pizza.png" class="img-responsive" alt="image of a pizza">
             </div>
             <div style="width:65%">
               <h4>The Udacity Special</h4>
@@ -122,7 +126,7 @@
           </div>
           <div id="pizza1" class="randomPizzaContainer" style="width:33.33%; height: 325px;">
             <div style="width:35%">
-              <img src="images/pizza.png" class="img-responsive">
+              <img src="images/pizza.png" class="img-responsive" alt="image of a pizza">
             </div>
             <div style="width:65%">
               <h4>The Cameron Special</h4>
